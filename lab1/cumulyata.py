@@ -19,7 +19,7 @@ x = [4.98,
 5.75,
 5.86]
 labels = list(map(str, y))
-plt.bar(x, y, linewidth = 0.8, width = 0.4)
+plt.bar(x, y, linewidth = 0.1, width = 0.08)
 plt.plot(x, y, color='red', marker='s',markersize=7)
 plt.xlim(4.75, 6)
 plt.ylim(0, 1.2)
